@@ -1,0 +1,40 @@
+body{
+   font-family: Arial;
+   background-color: azure;
+}
+.heading{
+   font-size: 40px;
+   font-weight: bold;
+}
+.subheading{
+   font-size: 25px;
+}
+.todoname,.tododate{
+   background-color: azure;
+   
+}
+.todorow{
+   display: grid;
+   grid-template-columns: 180px 120px 100px;
+   margin-top: 10px;
+}
+.addbutton{
+   background-color: green;
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   width: 80px;
+   height: 25px;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.deletebutton{
+   background-color: red;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+   width: 80px;
+   height: 25px;
+   margin-left: 12px;
+   cursor: pointer;
+}
